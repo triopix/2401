@@ -1,0 +1,14 @@
+Tips for Success in 2401:
+
+- Be curious, and work intentionally
+- Assignments are for learning - take your time with them
+- Use time to ask questions, and explore topics (discussion)
+- Experiment with everything
+
+Backup your Work
+- very easy for things to get lost
+
+Download and Test:
+- this is C not java or some other langauge (it's a big boi)
+- download and test, double/triple check it
+- make sure whoever checks it, has a good time checking your solution
