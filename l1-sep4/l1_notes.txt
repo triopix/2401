@@ -1,0 +1,87 @@
+1.1/1.2 - Humble Beginnings Notes
+---------------------------------
+
+Tips for Success in 2401:
+
+- Be curious, and work intentionally
+- Assignments are for learning - take your time with them
+- Use time to ask questions, and explore topics (discussion)
+- Experiment with everything
+
+Backup your Work
+- very easy for things to get lost
+
+Download and Test:
+- this is C not java or some other langauge (it's a big boi)
+- download and test, double/triple check it
+- make sure whoever checks it, has a good time checking your solution
+
+AI is permitted (conditions) w/ citation:
+- on Assignments
+- Tutorial Excersizes
+
+---------------------------------------------------------------
+Generative AI: A Primer
+
+- copilot, chatgpt, are applications that use LLM's
+- LLM's are text prediction models
+
+Training:
+- training means showing text and adjusting probability
+- [START] the cat loves fish [END]
+
+Predict: [START]: 100% chance, 'the'
+Predict: [END]: 100% chance, 'fish'
+other things, 50% chances
+(Markov Chain)
+
+Modern Models:
+- Markov Chains were old approaches to text-prediction
+- LLMs use transformers which has additional components, 
+trained to improve context understanding
+
+Applications (ChatGPT, Copilot):
+- applications that provide additional tasks
+- parses input 
+- provides additional context
+- use different algorithms to select context, change models,
+and more.
+
+"Prompt" is the text given to the LLM:
+- in gpt, and copilot, you have little control over this
+- mental health issues, and etc...
+- what you provide as a prompt can be altered, have 
+- gives you a positive feedback loop, (mabey not always)
+
+Issue of LLMS:
+- bias: trained on the biases of the input data and any prompts
+- misinformation: very good at sounding plausible, not based
+on facts, but hallucinations
+- cited information can be widely incorrect
+- they try and sound like the user, agreement bias
+
+Best Use Cases for AI:
+- initially designed as a translation algorithm (ex. japanese)!
+- good for translating, explaining language, etc...
+- not using it to provide facts (except gemini), but find starting points
+- using these tools will make you dumb
+- they will make you not think for yourself
+- the more code that you see that you didn't write, the less likely that you are paying attention to it
+- terminal commands, etc...
+---------------------------------------------------------------
+Learning/Motivation:
+
+- do not try and optimize learning, learn to learn
+- it is hard, easy way out is difficulty (your docs!)
+- you need difficulty, remember your parents, your dream, etc...
+- understanding where to find information neurologically is
+the important part. 
+---------------------------------------------------------------
+HOW TO LEARN NOTHING, and waste time/money, kill your dreams:
+
+- Encounter a problem, find an answer (ChatGPT, Friend, Google), it works, move on and don't think about it again. It works, right?
+- Treat the lectures as a second screen. You showed up at least, right?
+- Read the material and if it seems clear enough, just move on. If it makes sense while you're reading it, it will make sense three weeks from now when combined with other topics, right?
+- skip the assignments and midterms. As long as you get 100% on the final exam and final project you'll get an A+ right?
+
+FUCK THAT, we locking in

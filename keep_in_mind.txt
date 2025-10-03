@@ -1,0 +1,2 @@
+* make sure code runs ON the VM (not just your host)
+* important info abt open-stack: https://carleton.ca/scs/tech-support/scs-open-stack/openstack-technical-support/openstack-step-by-step-guide/

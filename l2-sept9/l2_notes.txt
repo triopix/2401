@@ -1,0 +1,113 @@
+1.3 - Compilation Notes 
+-----------------------
+
+Computing History (Background and Appreciation):
+
+https://www.computerhistory.org/timeline/computers/
+
+Early 1940s:
+- ENIAC, programmed using switches and patch cables
+- Programming, was electrical engineering lol
+- Debugging, cable plugged in all the way? Transitor burn out?
+A REAL "bug" eat through a cable
+
+---------------------------
+=> Von Neumann Architecture
+---------------------------
+
+Late 40s/50s:
+- Memory holds programs + instruction
+- Control Unit loads instructions from memory, decode them, and coordinate
+- ALU logic and arithmetic calculations
+- Registers store small amounts  of book keeping data
+
+ESDAC - is the Earliest "Stored Program" Calculator
+Electronic Delay Storage Automatic 
+
+--------------------
+=> Assembly Language
+--------------------
+
+- EDSAC was meant to me used by students at Cambridge
+- No writing directly in binary, or 
+constantly looking up numbers on tables
+- No difference between "data" and "instructions". 
+- Self-modifying instructions were common to save memory
+
+A5S -> add memory[5] use to the A register 
+
+--------------
+=> Subroutines
+--------------
+
+Let's make it easier for students!
+
+- Write a small piece of functionality to reuse, e.g "divide"
+- When writing a new program, copy the subroutine punched holes, to
+the end to "call" the subroutine
+    - Copy a "jump to here + 1" instruction to the end of the subroutine's instruction (the return address)
+    - Jump to the subroutine
+
+-------------------------
+=> Programming in English
+-------------------------
+
+- What if programs can be written using English words?
+- Computers don't understand English however
+
+Lt.d Grace Hopper, mathematician, programmer, insisted that it would be easier to write programs with English at a time when computers could
+only do Arithmetic. She wanted even business-minded people to use it
+
+Grace developed the first compiler to convert mathematical notation
+into machine code, then continued to develop the first English-like
+programming language, FLOW-MATIC 
+
+It seperated the data from the instructions 
+
+Each instruction mapped to templates of machine code instructions
+
+CS/Programming: Every programming langauge is just a different way 
+to express assembly langauge, they are "abstractions" of assembly.
+
+Assembly just maps on to the machine code. 
+
+---------------------------
+=> Business Data Processing
+---------------------------
+
+- Languages like (COBOL, FORTRAN) popped up to make it easier to conduct business, process data, etc...
+- Scientists do not use this still, because it removes the abstraction
+- So do we still have to use assembly for this then all the time...?
+
+NO!
+
+=> C is the solution, it came after B (Bell Labs lol) = C and Unix
+1970s
+
+- What if a programming language could be used to drive the system itself, rather than working in assembly?
+- Ken Thompson and Dennis Ritchie developed Unix, a simple operating 
+system allowing multiple users and programs to work with multiple stored programs. 
+- They later created the C programming language, to help develop
+the REST of the UNIX operating system. Intentionally close to assembly, JUST to abstract it out. But what if it could be controlled 
+ALL using C?
+- Small programs that could be called and executed
+
+-------------
+=> About Rust
+-------------
+
+Rust (compiling directly to machine-code)... side-note, you will appreciate what it is, and a LOT of research on Rust happened AT Carleton Uni, lots of masters/undergrad did research on this. 
+
+Side note about money, etc... money is in everything, teams are in all companies, but systems/distributed systems/systems eng is where I like. Writing C, Rust, etc...
+
+---------------------
+=> C Compilation Flow
+---------------------
+
+Programmer -> C Code 
+C code -> (preprocessor -> compiler -> assembler) -> linking
+-> executeable (machine code)
+
+compiler to assembler, converts code to assembly
+assembler to linker, converts code to object code
+linking to executable, gets you machine code
