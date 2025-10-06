@@ -1,9 +1,12 @@
 workspace
 
--> local dev environment (to upload files, logistics)
+-> local dev environment (to upload/download files, logistics)
 -> cloud dev environment (to code/test)
 -> running both (code on cloud may not run on local as expected)
 -> different instruction sets (x86 cloud vs ARM local)
+
+basically the local dev env, has a local image of your cloud
+this is why you need to pull from the CLOUD to LOCAL (to submit files)
 
 todo:
 - chapter 1 notes (w/ code try out fully)
