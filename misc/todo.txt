@@ -1,0 +1,25 @@
+workspace
+
+-> local dev environment
+-> cloud dev environment 
+-> running both
+
+todo:
+- chapter 1 notes (w/ code try out fully)
+- chapter 2 notes (w/ code try out fully)
+- go over lecture videos 4-8, skim them
+- try out assignment 1/2 again, or go over mini quizzes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
