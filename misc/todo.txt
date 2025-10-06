@@ -1,8 +1,9 @@
 workspace
 
--> local dev environment
--> cloud dev environment 
--> running both
+-> local dev environment (to upload files, logistics)
+-> cloud dev environment (to code/test)
+-> running both (code on cloud may not run on local as expected)
+-> different instruction sets (x86 cloud vs ARM local)
 
 todo:
 - chapter 1 notes (w/ code try out fully)
